@@ -1,0 +1,202 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+body {
+	font-size:12px;
+	font-family:Arial, Helvetica, sans-serif, "宋体";
+	font-weight:normal;
+	padding:0;
+	margin:0 auto;
+	color:#404040;
+	line-height:1.4em;
+}
+.listDecimal li {
+	list-style-type:decimal;
+}
+.widthall {
+	width:100%;
+}
+.redstar {
+	color:#f00;
+}
+.redColor {
+	color:#f00;
+}
+.colorOrange {
+	color:#ff5f09;
+}
+.colorlink {
+	color:#0066cc;
+}
+.overflow {
+	overflow:hidden;
+}
+.flowleft {
+	float:left;
+}
+.flowright {
+	float:right;
+}
+.textleft {
+	text-align:left;
+}
+.textcenter {
+	text-align:center;
+}
+.textright {
+	text-align:right;
+}
+.pos_relative {
+	position:relative;
+}
+.pos_absolute {
+	position:absolute;
+}
+input[type=button] {
+	cursor:pointer;
+}
+h1, h2, h3 {
+	font-family:"黑体", Verdana, Geneva, sans-serif;
+}
+table {
+	border-collapse:collapse;
+	border-spacing:0;
+	font-size:12px;
+	border:0;
+}
+button {
+	cursor:pointer;
+}
+em, strong, s, small, i, b {
+	font-style:normal;
+	text-decoration:none;
+}
+.shisi {
+	font-size:14px;
+}
+.shiliu {
+	font-size:16px;
+}
+img {
+	border:0;
+}
+img a, a {
+	cursor:pointer;
+}
+a, s, i, small, caption, form, iframe, img, P, label, body, ol, div, ul, li, h1, h2, h3, h4, span, dd, dl, dt, table, td, tr, th, strong, blockquote, tbody, thead, label, button, checkbox, radio, textarea, input {
+	margin:0;
+	padding:0;
+}
+select, input, font, button {
+	font-size:12px;
+	vertical-align:middle;
+}
+br {
+	clear:both;
+}
+ul, li, ol {
+	list-style:none;
+}
+.zzcontainor {
+	margin:0 auto;
+	padding:0;
+	width:964px;
+}
+a {
+	text-decoration:none;
+}
+a:link, a:visited {
+	color:#3168bb;
+}
+a:hover {
+	text-decoration:underline;
+}
+.zzbb {
+	width:100%;
+	height:10px;
+	overflow:hidden;
+}
+/*---------时间选择器CSS-------*/
+.date-picker-wp {
+	display: none;
+	position: absolute;
+	background: #f1f1f1;
+	left: 40px;
+	top: 40px;
+	border-top: 4px solid #3879d9;
+}
+.date-picker-wp table {
+	border: 1px solid #ddd;
+}
+.date-picker-wp td {
+	background: #fafafa;
+	width: 22px;
+	height: 18px;
+	border: 1px solid #ccc;
+	font-size: 12px;
+	text-align: center;
+}
+.date-picker-wp td.noborder {
+	border: none;
+	background: none;
+}
+.date-picker-wp td a {
+	color: #1c93c4;
+	text-decoration: none;
+}
+.strong {
+	font-weight: bold;
+}
+.hand {
+	cursor: pointer;
+	color: #3879d9;
+}
+/*--常用---*/
+.fontweigtBold {
+	font-weight:bold;
+}
+input[type=button] {
+	cursor:pointer;
+}
+.marginBottom10 {
+	margin-bottom:10px;
+}
+.marginBottom15 {
+	margin-bottom:15px;
+}
+.marginLR5 {
+	margin-left:5px;
+	margin-right:5px;
+}
+.paddingL5 {
+	padding-left:5px;
+}
+.paddingL10 {
+	padding-left:10px;
+}
+.marginR5 {
+	margin-right:5px;
+}
+.marginTop5 {
+	margin-top:5px;
+}
+.marginR10 {
+	margin-right:10px;
+}
+.marginR15 {
+	margin-right:15px;
+}
+.marginL10 {
+	margin-left:10px;
+}
+.marginL5 {
+	margin-left:5px;
+}
+.productTips {
+	color:#818080;
+	line-height:2em;
+}
+.requireRed {
+	color:#f00;
+	padding: 0 3px;
+}
